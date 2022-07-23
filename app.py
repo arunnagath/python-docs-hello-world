@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hacked by Appsec Team ZEE"
+    return "ZEE Hacked by Appsec Team"
