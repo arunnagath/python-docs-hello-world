@@ -1,7 +1,10 @@
 from flask import Flask
 from PIL import Image
-im=image.open("https://st2.depositphotos.com/2501025/5654/i/450/depositphotos_56545139-stock-photo-password.jpg")
-im.show()
+import requests
+from io import BytesIO
+
+response = requests.get(https://st2.depositphotos.com/1000393/11789/i/950/depositphotos_117893952-stock-photo-hacker-with-mask.jpg)
+img = Image.open(BytesIO(response.content))
 app = Flask(__name__)
 
 @app.route("/")
