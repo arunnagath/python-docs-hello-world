@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'zee5-ci-njs-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2AA1C2E516B344D49A05F0B4AF59B423 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_360662038BD84ABF85C94E81E8147B4E }}
